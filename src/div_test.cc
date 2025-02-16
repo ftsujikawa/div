@@ -10,9 +10,9 @@
 TEST(DivTest, fiveDivTwoGivesTwo) {
     EXPECT_EQ(2, divi(5, 2));
 }
-/*TEST(DivTest, ThreeDivZeroGivesZero) {
+TEST(DivTest, ThreeDivZeroGivesZero) {
     EXPECT_EQ(0, divi(3, 0));
-}*/
+}
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
