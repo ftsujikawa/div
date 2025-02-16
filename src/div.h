@@ -9,7 +9,7 @@
 extern "C" {
 #endif
 
-int div(int a, int b);
+int divi(int a, int b);
 
 #ifdef __cplusplus
 }
